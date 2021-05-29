@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starter</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="logo1.png" alt="logo" class="imag">
+    <h1>NAVKAR CREATION</h1>
+  </header>
+
+
+
+  <section class="menu">
+    <div class="title">
+      <h2>Our Catlog</h2>
+      <div class="underline"></div>
+    </div>
+
+    <div class="btn-container">
+      <!-- <button class="filter-btn" type="button" data-id="all">All</button>
+      <button class="filter-btn" type="button" data-id="kumkum">kumkum</button>
+      <button class="filter-btn" type="button" data-id="pari">pari</button>
+      <button class="filter-btn" type="button" data-id="parichay">parichay</button>
+       -->
+
+    </div>
+
+    <div class="section-center">
+      <article class="menu-item">
+        <img src="kohi.png" class="photho" alt="item">
+        <div class="item-info">
+          <header>
+            <h4> kohinoor</h4>
+            <h4 class="price">Rs.850</h4>
+          </header>
+          <p class="item-text">
+            This saree is just like the diamond kohinoor.A very authentic and colourful saree .
+          </p>
+        </div>
+      </article>
+      <article class="menu-item">
+        <img src="kohi.png" class="photho" alt="item">
+        <div class="item-info">
+          <header>
+            <h4> kohinoor</h4>
+            <h4 class="price">Rs.850</h4>
+          </header>
+          <p class="item-text">
+            This saree is just like the diamond kohinoor.A very authentic and colourful saree .
+          </p>
+        </div>
+      </article>
+      <article class="menu-item">
+        <img src="kohi.png" class="photho" alt="item">
+        <div class="item-info">
+          <header>
+            <h4> kohinoor</h4>
+            <h4 class="price">Rs.850</h4>
+          </header>
+          <p class="item-text">
+            This saree is just like the diamond kohinoor.A very authentic and colourful saree .
+          </p>
+        </div>
+      </article>
+      <article class="menu-item">
+        <img src="kohi.png" class="photho" alt="item">
+        <div class="item-info">
+          <header>
+            <h4> kohinoor</h4>
+            <h4 class="price">Rs.850</h4>
+          </header>
+          <p class="item-text">
+            This saree is just like the diamond kohinoor.A very authentic and colourful saree .
+          </p>
+        </div>
+      </article>
+      <article class="menu-item">
+        <img src="kohi.png" class="photho" alt="item">
+        <div class="item-info">
+          <header>
+            <h4> kohinoor</h4>
+            <h4 class="price">Rs.850</h4>
+          </header>
+          <p class="item-text">
+            This saree is just like the diamond kohinoor.A very authentic and colourful saree .
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <div class="about-section">
+    <h1>About Us </h1>
+    <p>"Navkar Creation "brings you amazing new styles in casual sarees online that you can shop from.</p>
+    <p>From various fabrics to prints, works and weaves, we have taken care of the little details to give you a range
+      that is not just huge but also diverse so you have numerous options to choose from. So check out our online casual
+      sarees and upgrade your closet on the go!</p>
+      <p> Contact us : 9854782535</p>
+      <p> email us : navkarcreation@gmail.com</p>
+
+
+
+    <button class="open-button" onclick="openForm()">Open Form</button>
+
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1 class="log">Login</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="text"><b>Message</b></label>
+        <input type="text" placeholder="Enter message" name="text" required>
+
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- javascript -->
+  <script src="app.js"></script>
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+
+  </script>
+</body>
+
+</html>
